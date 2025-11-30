@@ -1,0 +1,18 @@
+# Visual Studio generated files
+.vs/
+out/
+x64/
+Debug/
+Release/
+*.user
+*.suo
+*.db
+*.pdb
+*.obj
+*.exe
+*.ilk
+*.log
+*.tlog
+*.idb
+*.ipch
+packages/
