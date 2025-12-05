@@ -1,18 +1,22 @@
-# Visual Studio generated files
-.vs/
+# CMake Build files
+build/
 out/
-x64/
-Debug/
-Release/
-*.user
+bin/
+cmake-build-*/
+
+# Visual Studio files
+.vs/
+.vscode/
+*.sln
+*.vcxproj
+*.vcxproj.user
 *.suo
-*.db
-*.pdb
-*.obj
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build
 *.exe
-*.ilk
-*.log
-*.tlog
-*.idb
-*.ipch
-packages/
+*.o
+*.obj
