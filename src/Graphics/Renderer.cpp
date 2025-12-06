@@ -44,7 +44,7 @@ void Renderer::DrawSimulation(const World& world) {
             Color c_fire = { 255, 0, 0, 255 };
             Color c_plasma = { 255, 255, 255, 255 };
 
-
+            //TODO SWITCH CASE??
             if (temp < 0.0f) {
                 c = c_cold;
             }
