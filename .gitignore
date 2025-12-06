@@ -1,0 +1,22 @@
+# CMake Build files
+build/
+out/
+bin/
+cmake-build-*/
+
+# Visual Studio files
+.vs/
+.vscode/
+*.sln
+*.vcxproj
+*.vcxproj.user
+*.suo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build
+*.exe
+*.o
+*.obj
