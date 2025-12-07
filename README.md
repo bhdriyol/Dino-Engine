@@ -6,12 +6,12 @@
 
 ![alt text](assets/screenshots/dino1e.jpg)
 
-📥 Download & Play
+ Download & Play
 You don't need to compile the code to try it out! You can download the latest playable version (Windows .exe) directly from Itch.io:
 
-👉[Dino on Itch.io](https://bhdriyol.itch.io/dino)
+[Dino on Itch.io](https://bhdriyol.itch.io/dino)
 
-## 🔥 Key Features
+##  Key Features
 
 ### 1\. Advanced Thermodynamics System
 
@@ -44,7 +44,7 @@ Features specialized **HEAT** and **COOL** tools designed for precision experime
   * **Material-Aware Interaction:** The tools automatically ignore empty space (Air), allowing users to heat specific objects without creating chaotic hot air pockets.
   * **Thermal Resistance Logic:** The rate of temperature change depends on the material's state (Gases heat instantly, Solids heat gradually).
 
-## 🛠️ Technical Implementation Details
+##  Technical Implementation Details
 
 ### The Physics Loop
 
@@ -62,7 +62,7 @@ Early iterations faced "thermal runaway" (infinite temperature spikes). This was
   * Ensuring energy conservation (heat gained by neighbor = heat lost by source).
   * Using a non-linear transfer logic that accelerates heat flow at high temperature differentials (Pseudo-Radiation) while maintaining mathematical stability.
 
-## 🎮 Controls
+##  Controls
 
 | Key / Action | Function |
 | :--- | :--- |
@@ -73,7 +73,7 @@ Early iterations faced "thermal runaway" (infinite temperature spikes). This was
 | **D** | Toggle Debug Overlay |
 | **UI Buttons** | Select Elements (Sand, Water, Fire, Wall, Heat Tool, Cool Tool) |
 
-## 🚀 Installation & Build
+##  Installation & Build
 
 ### Prerequisites
 
@@ -88,7 +88,7 @@ Early iterations faced "thermal runaway" (infinite temperature spikes). This was
 4.  Build in **Release** mode for optimal performance.
 5.  Run the executable (ensure `raylib.dll` is in the same directory if using dynamic linking).
 
-## 🔮 Future Roadmap
+##  Future Roadmap
 
   * [ ] More elements and reactions.
   * [ ] Pressure system for liquids and gases.
@@ -96,7 +96,7 @@ Early iterations faced "thermal runaway" (infinite temperature spikes). This was
   * [ ] Save/Load feature for simulation states.
   * [ ] Multi-threaded rendering for larger grid sizes.
 
-## 📜 License
+##  License
 
 This project is open-source. Feel free to use it for educational purposes or fork it to create your own elements\!
 
