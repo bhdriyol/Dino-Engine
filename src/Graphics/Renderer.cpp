@@ -79,6 +79,26 @@ void Renderer::DrawSimulation(const World& world) {
                 if (grid[i] == FIRE) c = (GetRandomValue(0, 2) == 0) ? ORANGE : RED;
                 if (grid[i] == SAND) c = ColorLerp(c, BLACK, GetRandomValue(0, 5) / 100.0f);
                 if (grid[i] == ACID) c = (GetRandomValue(0, 3) == 0) ? LIME : c;
+
+
+                float temp = gridTemp[i];
+                //! Heat Glow
+                if (temp > 500.0f && grid[i] != FIRE) {
+                    float t = (temp - 500.0f) / 1000.0f;
+                    if (t > 1.0f) t = 1.0f;
+                    
+                    Color glowColor = { 255, 100, 50, 255 };
+               
+                    c = ColorLerp(c, glowColor, t * 0.8f);
+                }
+                //! Cold Tint
+                else if (temp < 0.0f && grid[i] != ICE) {
+                    float t = -temp / 50.0f;
+                    if (t > 0.6f) t = 0.6f;
+
+                    Color coldColor = { 200, 200, 255, 255 };
+                    c = ColorLerp(c, coldColor, t);
+                }
             }
         }
         ImageDrawPixel(&simImage, i % simWidth, i / simWidth, c);

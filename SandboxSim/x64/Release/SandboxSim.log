@@ -1,8 +1,7 @@
 ﻿  Renderer.cpp
-  main.cpp
   Generating code
-  14 of 296 functions ( 4.7%) were compiled, the rest were copied from previous compilation.
+  1 of 296 functions ( 0.3%) were compiled, the rest were copied from previous compilation.
     0 functions were new in current compilation
-    0 functions had inline decision re-evaluated but remain unchanged
+    1 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
   SandboxSim.vcxproj -> C:\Users\Bahadir\Documents\GitHub\SandboxSim-DINO\x64\Release\SandboxSim.exe
