@@ -11,6 +11,18 @@ You don't need to compile the code to try it out! You can download the latest pl
 
 [Dino on Itch.io](https://bhdriyol.itch.io/dino)
 
+##  Documentation & Wiki
+
+Explore the comprehensive documentation to understand the physics behind the engine or learn how to play.
+
+ **[Click here to open the Official Wiki](../../wiki)**
+
+### Quick Links
+*  **[User Guide](../../wiki/User-Guide)** – Controls, Tools, and how to play.
+*  **[Thermodynamics System](../../wiki/Thermodynamics-System)** – Deep dive into the heat diffusion & physics logic.
+*  **[Elements Reference](../../wiki/Elements-Reference)** – Full list of materials, melting points, and reactions.
+*  **[Developer Guide](../../wiki/Developer-Guide)** – How to contribute and add new elements to the code.
+
 ##  Key Features
 
 ### 1\. Thermodynamics System
