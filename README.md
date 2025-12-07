@@ -1,5 +1,7 @@
-﻿# Dino: Thermodynamic Cellular Automata Engine
-
+  # Dino: Thermodynamic Cellular Automata Engine
+![Project Banner](https://img.shields.io/badge/Language-C%2B%2B-blue?style=for-the-badge&logo=c%2B%2B) ![Library](https://img.shields.io/badge/Library-Raylib-red?style=for-the-badge&logo=raylib) ![Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge)
+[![Itch.io](https://img.shields.io/badge/Itch.io-Download_Now-fa5c5c?style=for-the-badge&logo=itch.io&logoColor=white)](https://bhdriyol.itch.io/dino)
+[![Buy Me A Coffee](https://img.shields.io/badge/Donate-Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://www.buymeacoffee.com/bhdr_iyol)
   
 
 **Dino** is a high-performance, custom-built physics simulation engine based on cellular automata. Written in **C++** using the **Raylib** framework, it goes beyond standard "falling sand" games by implementing a robust **thermodynamics system** that simulates heat diffusion, phase changes, thermal inertia, and state-of-matter interactions in real-time.
